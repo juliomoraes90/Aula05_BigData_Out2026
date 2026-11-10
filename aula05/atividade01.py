@@ -7,9 +7,18 @@ media = (nota01 + nota02 + nota03 + nota04) / 4
 
 print(f'Nota final: {media:.1f}')
 
+# O que eu fiz
+# if media >= 7:
+#     print('Aprovado')
+# elif media >=5 and media < 7:
+#     print('Recuperação')
+# else:
+#     print('Reprovado')
+
+# O que é o mais otimizado
 if media >= 7:
     print('Aprovado')
-elif media >=5 and media < 7:
+elif media >=5:
     print('Recuperação')
 else:
     print('Reprovado')
